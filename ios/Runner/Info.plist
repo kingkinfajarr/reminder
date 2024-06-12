@@ -45,5 +45,17 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSRemoteNotificationUsageDescription</key>
+	<string>Your notification message</string>
+	<key>UIUserNotificationSettings</key>
+	<dict>
+			<key>types</key>
+			<integer>7</integer>
+	</dict>
 </dict>
 </plist>
